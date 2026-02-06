@@ -1,0 +1,9 @@
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#6e00ab",
+        "titleBar.activeForeground": "#ffffff",
+        "activityBar.background": "#5c0091",
+        "statusBar.background": "#6e00ab"
+    },
+    "window.title": "Student Progress - FORK"
+}
