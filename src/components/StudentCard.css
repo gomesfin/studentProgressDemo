@@ -1,0 +1,280 @@
+.student-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    backdrop-filter: var(--glass-effect);
+    -webkit-backdrop-filter: var(--glass-effect);
+    position: relative;
+    /* Context for absolute grade circle */
+    border-radius: 16px;
+    /* Adjusted padding to move content upward and leave room at bottom */
+    padding: 0.5rem 0.2rem 1rem 0.75rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, height 0.3s ease;
+    /* Added height transition */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* Default gap */
+    box-sizing: border-box;
+    height: 100%;
+    /* Default Expanded Height */
+}
+
+/* Collapsed State */
+/* Collapsed State */
+.student-card.collapsed {
+    height: auto;
+    width: fit-content;
+    /* Allow wrapping around name */
+    min-width: 120px;
+    /* Minimum width to prevent too small look */
+    padding: 0.8rem 1.5rem;
+    /* Symmetrical horizontal padding */
+    gap: 0;
+    min-height: 60px;
+    justify-content: center;
+    border-radius: 50px;
+    /* Pill shape for collapsed */
+}
+
+.student-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.student-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.student-name {
+    font-size: 1.25rem;
+    color: var(--text-primary);
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
+    /* Slightly larger default */
+}
+
+.student-card.collapsed .student-name {
+    max-width: 200px;
+    /* Constrained to fit within packer slot (125px scaled / 0.48 = 260px). 200 + 48 padding = 248. */
+    text-align: center;
+}
+
+.grade-circle {
+    width: 50px;
+    /* Increased size slightly to accommodate larger font */
+    height: 50px;
+    border-radius: 50%;
+    background: var(--card-bg);
+    /* Match bg so it looks like part of card */
+    border: 1px solid var(--card-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-primary);
+    font-weight: 700;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+    /* Pop out effect */
+    position: absolute;
+    top: -20px;
+    /* Moves it up to protrude */
+    right: -10px;
+    /* Moves it slightly right */
+    /* Moves it slightly right */
+    z-index: 10;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.grade-circle:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.grade-number {
+    font-size: 1.35rem;
+    /* ~20% larger than 1.1rem */
+    line-height: 1;
+}
+
+.grade-suffix {
+    font-size: 0.6rem;
+    margin-left: 1px;
+    opacity: 0.8;
+}
+
+.card-body {
+    display: flex;
+    height: 150px;
+    width: 100%;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100%;
+    gap: 2px;
+    width: 75%;
+    /* Reduced to 75% per user request (15% decrease from 90%) */
+    position: relative;
+    /* Context for absolute tooltip */
+}
+
+.bar-tooltip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.85);
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 20;
+    width: max-content;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+}
+
+.tooltip-name {
+    font-size: 1.0rem;
+    /* Increased from 0.8rem */
+    color: #fff;
+    font-weight: 700;
+}
+
+.tooltip-value {
+    font-size: 0.8rem;
+    /* Reduced from 1.1rem */
+    color: #81a4cd;
+    /* Custom blue-grey */
+    font-weight: 800;
+}
+
+.progress-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+    justify-content: flex-end;
+    position: relative;
+    /* Anchor for tooltip */
+}
+
+.bar-track {
+    width: 100%;
+    flex-grow: 1;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.25rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bar-fill {
+    width: 100%;
+    transition: height 1s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.subject-label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 800;
+}
+
+.percent-label {
+    font-size: 0.7rem;
+    color: var(--text-primary);
+    opacity: 0.7;
+    display: none;
+}
+
+/* Icons Section */
+.icons-container {
+    flex: 1;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-left: 1.35rem;
+    /* Increased further to 1.35rem */
+    padding-bottom: 1.75rem;
+    /* Increased further to 1.75rem */
+}
+
+.icon-row {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    /* Restored gap */
+    font-weight: 700;
+    font-size: 0.85rem;
+    /* Restored font size */
+    color: inherit;
+    position: relative;
+    /* Anchor for tooltip */
+    cursor: help;
+    /* Indicate it has info */
+}
+
+.icon-mask {
+    width: 24px;
+    /* Restored/Moderate size */
+    height: 24px;
+    /* Restored/Moderate size */
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+
+.icon-value {
+    min-width: 1.5rem;
+    /* Restored min-width */
+    text-align: left;
+}
+
+.icon-tooltip {
+    position: absolute;
+    bottom: 100%;
+    /* Position above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.85);
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    pointer-events: none;
+    z-index: 20;
+    width: max-content;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    margin-bottom: 5px;
+    /* Spacing */
+
+    /* Text Styles */
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 700;
+    white-space: nowrap;
+}

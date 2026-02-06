@@ -1,0 +1,2226 @@
+{
+  "student": "Mahmoud Mahmoud",
+  "timestamp": "2026-02-02T20:59:59.107Z",
+  "rawData": [
+    {
+      "id": "c683fdcc-90b1-42e5-ba6c-8cc2d707c1fe",
+      "student_id": "s-1769874839494-0xqlh",
+      "class_id": "b56475a4-8ad4-469e-8cea-fc296e07e192",
+      "total_assignments": 27,
+      "completed_count": 22,
+      "assignment_data": [
+        {
+          "date": "2025-11-11",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 90,
+          "activityName": "1.1.2 Quiz: Wave Properties"
+        },
+        {
+          "date": "2025-11-11",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 90,
+          "activityName": "1.1.4 Quiz: Wave Interactions"
+        },
+        {
+          "date": "2025-11-11",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 100,
+          "activityName": "1.2.2 Quiz: Electromagnetic Radiation"
+        },
+        {
+          "date": "2025-11-11",
+          "score": 14,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 70,
+          "activityName": "1.2.5 Quiz: Wave-Particle Duality"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 25,
+          "classTitle": "Physical Science B",
+          "percentage": 0,
+          "activityName": "1.2.6 Practice: Wave-Particle Duality"
+        },
+        {
+          "date": "2025-11-11",
+          "score": 14,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 70,
+          "activityName": "1.3.2 Quiz: Introduction to Wave Technology"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 100,
+          "activityName": "1.3.4 Quiz: Digital Technology"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 25,
+          "classTitle": "Physical Science B",
+          "percentage": 0,
+          "activityName": "1.3.5 Practice: Applications of Waves"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 48,
+          "status": "Complete",
+          "possible": 50,
+          "classTitle": "Physical Science B",
+          "percentage": 96,
+          "activityName": "1.4.2 Test (CST): Waves"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 100,
+          "activityName": "2.1.2 Quiz: Types of Matter"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 90,
+          "activityName": "2.1.4 Quiz: The Periodic Table"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 90,
+          "activityName": "2.1.6 Quiz: Chemical Bonds"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 100,
+          "activityName": "2.2.2 Quiz: Properties of Matter"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 25,
+          "classTitle": "Physical Science B",
+          "percentage": 0,
+          "activityName": "2.2.3 Explore: Properties of Matter"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 32,
+          "status": "Complete",
+          "possible": 40,
+          "classTitle": "Physical Science B",
+          "percentage": 80,
+          "activityName": "2.2.5 Quiz: Properties of Matter"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 40,
+          "status": "Complete",
+          "possible": 40,
+          "classTitle": "Physical Science B",
+          "percentage": 100,
+          "activityName": "2.3.2 Test (CST): Structure and Properties of Matter"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 100,
+          "activityName": "3.1.2 Quiz: Chemical Equations"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 100,
+          "activityName": "3.1.4 Quiz: Types of Chemical Reactions"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 25,
+          "classTitle": "Physical Science B",
+          "percentage": 0,
+          "activityName": "3.1.5 Practice: Describing Chemical Reactions"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 80,
+          "activityName": "3.2.2 Quiz: Energy of Chemical Reactions"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 80,
+          "activityName": "3.2.5 Quiz: Reaction Rates"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 80,
+          "activityName": "3.2.7 Quiz: Dynamic Equilibrium"
+        },
+        {
+          "date": "2026-01-06",
+          "score": 38,
+          "status": "Complete",
+          "possible": 50,
+          "classTitle": "Physical Science B",
+          "percentage": 76,
+          "activityName": "3.3.2 Test (CST): Chemical Reactions"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 100,
+          "activityName": "4.1.2 Quiz: Fission and Fusion"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science B",
+          "percentage": 90,
+          "activityName": "4.1.4 Quiz: Radioactive Decay"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 28,
+          "status": "Complete",
+          "possible": 30,
+          "classTitle": "Physical Science B",
+          "percentage": 93.3,
+          "activityName": "4.3.2 Test (CST): Nuclear Reactions"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 100,
+          "classTitle": "Physical Science B",
+          "percentage": 0,
+          "activityName": "5.1.2 Exam: Semester Exam"
+        }
+      ],
+      "last_updated": "2026-02-01T16:03:53.707+00:00"
+    },
+    {
+      "id": "7ca9ecaa-9b53-4280-822a-333134cdc395",
+      "student_id": "s-1769874839494-0xqlh",
+      "class_id": "c066f61c-d061-443a-98c4-337847989ee1",
+      "total_assignments": 22,
+      "completed_count": 22,
+      "assignment_data": [
+        {
+          "date": "2025-09-11",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 80,
+          "activityName": "1.1.2 Quiz: What is Science?"
+        },
+        {
+          "date": "2025-09-11",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 90,
+          "activityName": "1.1.4 Quiz: Introduction to Physical Science"
+        },
+        {
+          "date": "2025-09-11",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 90,
+          "activityName": "1.2.2 Quiz: Scientific Investigations"
+        },
+        {
+          "date": "2025-09-11",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 100,
+          "activityName": "1.2.4 Quiz: Modeling"
+        },
+        {
+          "date": "2025-10-10",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 90,
+          "activityName": "1.2.6 Quiz: Engineering"
+        },
+        {
+          "date": "2025-09-11",
+          "score": 46,
+          "status": "Complete",
+          "possible": 50,
+          "classTitle": "Physical Science A",
+          "percentage": 92,
+          "activityName": "1.3.2 Test (CST): Science and Engineering"
+        },
+        {
+          "date": "2025-09-16",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 80,
+          "activityName": "2.1.2 Quiz: Types of Energy"
+        },
+        {
+          "date": "2025-09-16",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 80,
+          "activityName": "2.1.4 Quiz: Conservation of Energy"
+        },
+        {
+          "date": "2025-10-02",
+          "score": 25,
+          "status": "Complete",
+          "possible": 25,
+          "classTitle": "Physical Science A",
+          "percentage": 100,
+          "activityName": "2.1.5 Practice: Conservation of Energy"
+        },
+        {
+          "date": "2025-09-22",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 90,
+          "activityName": "2.2.2 Quiz: Thermal Energy and Matter"
+        },
+        {
+          "date": "2025-10-10",
+          "score": 32,
+          "status": "Complete",
+          "possible": 40,
+          "classTitle": "Physical Science A",
+          "percentage": 80,
+          "activityName": "2.2.4 Quiz: Transfer of Thermal Energy"
+        },
+        {
+          "date": "2025-09-26",
+          "score": 40,
+          "status": "Complete",
+          "possible": 40,
+          "classTitle": "Physical Science A",
+          "percentage": 100,
+          "activityName": "2.4.2 Test (CST): Energy"
+        },
+        {
+          "date": "2025-10-07",
+          "score": 14,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 70,
+          "activityName": "3.1.2 Quiz: Newton’s Laws of Motion"
+        },
+        {
+          "date": "2025-10-07",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 90,
+          "activityName": "3.1.4 Quiz: Noncontact Forces"
+        },
+        {
+          "date": "2025-10-15",
+          "score": 14,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 70,
+          "activityName": "3.2.2 Quiz: Momentum"
+        },
+        {
+          "date": "2025-10-08",
+          "score": 38,
+          "status": "Complete",
+          "possible": 40,
+          "classTitle": "Physical Science A",
+          "percentage": 95,
+          "activityName": "3.3.2 Test (CST): Forces"
+        },
+        {
+          "date": "2025-10-08",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 100,
+          "activityName": "4.1.2 Quiz: Electricity"
+        },
+        {
+          "date": "2025-10-08",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 80,
+          "activityName": "4.1.4 Quiz: Magnetism"
+        },
+        {
+          "date": "2025-10-08",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Physical Science A",
+          "percentage": 80,
+          "activityName": "4.2.2 Quiz: Electromagnetism"
+        },
+        {
+          "date": "2025-10-08",
+          "score": 24,
+          "status": "Complete",
+          "possible": 40,
+          "classTitle": "Physical Science A",
+          "percentage": 60,
+          "activityName": "4.2.4 Quiz: Electromagnetism"
+        },
+        {
+          "date": "2025-10-20",
+          "score": 34,
+          "status": "Complete",
+          "possible": 40,
+          "classTitle": "Physical Science A",
+          "percentage": 85,
+          "activityName": "4.3.2 Test (CST): Electromagnets"
+        },
+        {
+          "date": "2025-10-20",
+          "score": 88,
+          "status": "Complete",
+          "possible": 100,
+          "classTitle": "Physical Science A",
+          "percentage": 88,
+          "activityName": "5.1.2 Exam: Semester Exam"
+        }
+      ],
+      "last_updated": "2026-02-01T16:03:57.052+00:00"
+    },
+    {
+      "id": "fedb0262-4a7f-4915-b33d-ac75ae106c58",
+      "student_id": "s-1769874839494-0xqlh",
+      "class_id": "0d08115b-8ca0-4f2b-b354-54f6a5f52bb5",
+      "total_assignments": 59,
+      "completed_count": 31,
+      "assignment_data": [
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 15,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "1.1.2 Discuss: Questioning Normalcy"
+        },
+        {
+          "date": "2025-11-20",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "1.1.3 Quiz: Returning to Normalcy"
+        },
+        {
+          "date": "2025-11-20",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "1.1.5 Quiz: Anti-Immigrant Beliefs"
+        },
+        {
+          "date": "2025-11-20",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "1.1.7 Quiz: Increased Racism"
+        },
+        {
+          "date": "2025-11-20",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "1.2.2 Quiz: African American Protest"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "1.2.3 Practice: The UNIA and the NAACP"
+        },
+        {
+          "date": "2025-11-20",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "1.2.5 Quiz: Women Fight for Equality"
+        },
+        {
+          "date": "2025-11-20",
+          "score": 10,
+          "status": "Complete",
+          "possible": 10,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "1.2.7 Quiz: The Harlem Renaissance"
+        },
+        {
+          "date": "2025-11-20",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "1.3.2 Quiz: The End of the Roaring Twenties"
+        },
+        {
+          "date": "2025-11-20",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "1.3.5 Quiz: Franklin Roosevelt and the New Deal"
+        },
+        {
+          "date": "2025-11-20",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "1.4.2 Quiz: War in Europe"
+        },
+        {
+          "date": "2025-11-20",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "1.4.4 Quiz: War in the Pacific"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 15,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "1.4.5 Discuss: A Big Decision"
+        },
+        {
+          "date": "2025-11-20",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "1.4.7 Quiz: The War at Home"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 60,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "1.5.3 Test (TST): Progress and Challenges"
+        },
+        {
+          "date": "2026-01-08",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "2.1.2 Quiz: Start of the Cold War"
+        },
+        {
+          "date": "2026-01-08",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "2.1.4 Quiz: The Iron Curtain"
+        },
+        {
+          "date": "2026-01-09",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "2.1.6 Quiz: Nationalism or Communism?"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 15,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "2.1.7 Discuss: Nationalism or Communism? Share Your Thoughts"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "2.2.2 Quiz: The Red Scare"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "2.2.4 Quiz: Cold War Liberalism"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 10,
+          "status": "Complete",
+          "possible": 10,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "2.2.6 Quiz: Duck and Cover!"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "2.2.7 Practice: Daily Life During the Cold War"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "2.3.2 Quiz: Equality or Communism?"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "2.3.4 Quiz: The Legal Strategy"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 15,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "2.3.6 Discuss: Eisenhower, Kennedy, and Civil Rights"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "2.3.7 Quiz: Mass Movements"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "2.4.2 Quiz: Culture of Prosperity"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "2.4.3 Journal: \"I Can't Do Without It!\""
+        },
+        {
+          "date": "2026-01-12",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "2.4.5 Quiz: From City to Suburb"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 60,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "2.5.3 Test (TST): The Cold War Begins"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "3.1.2 Quiz: A New Time is Coming"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "3.1.4 Quiz: The Vietnam War and American Politics"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "3.1.5 Practice: Hawks and Doves"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "3.1.7 Quiz: The Great Society"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "3.2.2 Quiz: Black Power"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "3.2.4 Quiz: More Groups Demand Rights"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "3.2.6 Quiz: New Gender Roles"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "3.2.7 Journal: Civil Rights &mdash; Mission Completed?"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 90,
+          "activityName": "3.3.2 Quiz: Moving South"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 10,
+          "status": "Complete",
+          "possible": 10,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "3.3.4 Quiz: Music and Power"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 100,
+          "activityName": "3.3.6 Quiz: Countercultures"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 60,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "3.5.3 Test (TST): Change Is in the Air"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.1.2 Quiz: Conservatives"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 15,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.1.3 Discuss: The Rights of Students"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.1.5 Quiz: The Media Generation"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.2.2 Quiz: Information Revolution"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.2.4 Quiz: Energy Issues"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.2.6 Quiz: International Trade"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.2.7 Practice: Essay &mdash; Business versus Labor: Outsourcing"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.3.2 Quiz: Life after the Cold War"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.3.4 Quiz: The United States, Terrorism, and Iraq"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 15,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.3.5 Discuss: World Police?"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.4.2 Quiz: Obama and Neo-Progressivism"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.4.4 Quiz: Swimming in the Media Sea"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.4.5 Journal: Personal Time Capsule"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.4.7 Quiz: Changes in the American Population"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 60,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "4.5.3 Test (TST): Contemporary Issues"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 50,
+          "classTitle": "U.S. History since the Civil War B",
+          "percentage": 0,
+          "activityName": "5.1.2 Exam: Semester 2 Exam"
+        }
+      ],
+      "last_updated": "2026-02-01T16:04:07.16+00:00"
+    },
+    {
+      "id": "f307e854-72f2-46e5-abb1-6d263731edb4",
+      "student_id": "s-1769874839494-0xqlh",
+      "class_id": "bb0ed20e-f90e-4d6e-bb30-ecbd3ad2eda0",
+      "total_assignments": 39,
+      "completed_count": 35,
+      "assignment_data": [
+        {
+          "date": "2026-01-07",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "1.1.3 Quiz: What Is a Polynomial?"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "1.2.3 Quiz: Adding and Subtracting Polynomials"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "1.3.3 Quiz: Multiplying Binomials"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "1.3.4 Practice: Modeling: Multiplying Binomials"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 47.5,
+          "status": "Complete",
+          "possible": 50,
+          "classTitle": "Algebra 1B",
+          "percentage": 95,
+          "activityName": "1.5.3 Test (CST): Polynomials"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 90,
+          "activityName": "2.1.3 Quiz: GCF and Factoring by Grouping"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "2.2.3 Quiz: Factoring <i>x</i><sup>2</sup> + <i>bx</i> + <i>c</i>"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "2.3.3 Quiz: Factoring <i>ax</i><sup>2</sup> + <i>bx</i> + <i>c</i>"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "2.4.3 Quiz: Special Cases"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 80,
+          "activityName": "2.5.3 Quiz: Factoring and Graphing"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 50,
+          "status": "Complete",
+          "possible": 50,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "2.6.3 Test (CST): Factoring Polynomials"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "3.1.3 Quiz: Solving Quadratic Equations"
+        },
+        {
+          "date": "2026-01-14",
+          "score": 16.5,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 82.5,
+          "activityName": "3.2.4 Journal: Completing the Square"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 90,
+          "activityName": "3.3.3 Quiz: The Quadratic Formula"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 14,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 70,
+          "activityName": "3.4.3 Quiz: Graphs of Quadratic Functions"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 80,
+          "activityName": "3.5.3 Quiz: Nonlinear Systems of Equations"
+        },
+        {
+          "date": "2026-01-08",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 80,
+          "activityName": "3.6.3 Quiz: Linear&#44; Quadratic&#44; and Exponential Functions"
+        },
+        {
+          "date": "2026-01-16",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "3.6.4 Practice: Modeling: Linear&#44; Quadratic&#44; and Exponential Functions"
+        },
+        {
+          "date": "2026-01-08",
+          "score": 42,
+          "status": "Complete",
+          "possible": 50,
+          "classTitle": "Algebra 1B",
+          "percentage": 84,
+          "activityName": "3.8.3 Test (CST): Quadratic Equations and Functions"
+        },
+        {
+          "date": "2026-01-09",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 90,
+          "activityName": "4.1.3 Quiz: Inverses"
+        },
+        {
+          "date": "2026-01-09",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 90,
+          "activityName": "4.2.3 Quiz: Parent Functions"
+        },
+        {
+          "date": "2026-01-09",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 80,
+          "activityName": "4.3.3 Quiz: Shifting Functions"
+        },
+        {
+          "date": "2026-01-14",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "4.3.4 Journal: Shifting Functions"
+        },
+        {
+          "date": "2026-01-09",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 90,
+          "activityName": "4.4.3 Quiz: Stretching and Compressing Functions"
+        },
+        {
+          "date": "2026-01-14",
+          "score": 17,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 85,
+          "activityName": "4.4.4 Practice: Modeling: Stretching and Compressing Functions"
+        },
+        {
+          "date": "2026-01-09",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "4.5.3 Quiz: Transformations of Parent Functions"
+        },
+        {
+          "date": "2026-01-09",
+          "score": 44,
+          "status": "Complete",
+          "possible": 50,
+          "classTitle": "Algebra 1B",
+          "percentage": 88,
+          "activityName": "4.6.3 Test (CST): Undoing Functions and Moving Them Around"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "5.1.3 Quiz: Measures of Center and Spread"
+        },
+        {
+          "date": "2026-01-12",
+          "score": 14,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 70,
+          "activityName": "5.2.3 Quiz: Dot Plots&#44; Box Plots&#44; and Histograms"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 0,
+          "activityName": "5.2.4 Practice: Modeling: Dot Plots&#44; Box Plots&#44; and Histograms"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 80,
+          "activityName": "5.3.3 Quiz: Describing Distributions"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 0,
+          "activityName": "5.3.4 Journal: Describing Distributions"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 14,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 70,
+          "activityName": "5.4.3 Quiz: Two-Way Frequency Tables"
+        },
+        {
+          "date": "2026-01-14",
+          "score": 36,
+          "status": "Complete",
+          "possible": 50,
+          "classTitle": "Algebra 1B",
+          "percentage": 72,
+          "activityName": "5.5.3 Test (CST): Descriptive Statistics"
+        },
+        {
+          "date": "2026-01-15",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 80,
+          "activityName": "6.1.3 Quiz: Two-Variable Data and Scatterplots"
+        },
+        {
+          "date": "2026-01-16",
+          "score": 14,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 70,
+          "activityName": "6.2.3 Quiz: Fitting Linear Models to Data"
+        },
+        {
+          "date": "2026-01-16",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Algebra 1B",
+          "percentage": 100,
+          "activityName": "6.3.3 Quiz: Nonlinear Models"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 50,
+          "classTitle": "Algebra 1B",
+          "percentage": 0,
+          "activityName": "6.4.3 Test (CST): Data and Mathematical Modeling"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 200,
+          "classTitle": "Algebra 1B",
+          "percentage": 0,
+          "activityName": "7.1.2 Exam: Semester 2 Exam"
+        }
+      ],
+      "last_updated": "2026-02-01T16:04:10.14+00:00"
+    },
+    {
+      "id": "13a6bde5-189d-4fbb-9807-8f24a4222248",
+      "student_id": "s-1769874839494-0xqlh",
+      "class_id": "b687d808-214b-4d75-a621-858f7f8c7188",
+      "total_assignments": 58,
+      "completed_count": 1,
+      "assignment_data": [
+        {
+          "date": "2026-01-12",
+          "score": 12,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 60,
+          "activityName": "1.1.4 Quiz: Understand Organizing Information"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "1.1.6 Quiz: Three Uniquely Organized Documents"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "1.1.8 Quiz: Analyze Organizing Paragraphs"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "1.2.3 Quiz: Understand Clarity"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "1.2.5 Quiz: &#34;How to Jump-Start a Car Battery&#34;"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "1.2.7 Quiz: Analyze Page Layout"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "1.2.9 Practice: Complete Your Assignment"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "1.3.2 Quiz: Understand Audience Sensitivity"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "1.3.4 Quiz: Two Sample Cover Letters"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "1.3.5 Discuss: Think It Through&#44; Talk It Out"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "1.3.7 Quiz: Analyze Strengths and Weaknesses of Cover Letters"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "1.3.9 Practice: Complete Your Assignment"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 45,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "1.4.4 Test (TST): Practical Documents"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.1.4 Quiz: Understand How to Persuade with Tone and Diction"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.1.6 Quiz: &#34;On Indian Removal&#34; and &#34;Samuel's Memory&#34;"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.1.8 Quiz: Analyze Contrasting Tones"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 40,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.1.10 Practice: Complete Your Assignment"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.2.3 Quiz: Understand Journalism as Persuasion"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.2.5 Quiz: Three Stories about Hurricane Katrina"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.2.7 Quiz: Analyze Bias in Media"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.2.9 Practice: Complete Your Assignment"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.3.2 Quiz: Understand Stories with Purpose"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.3.4 Quiz: &#34;Top of the Food Chain&#34; by T. C. Boyle"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.3.5 Discuss: Think It Through&#44; Talk It Out"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.3.7 Quiz: Analyze Rhetoric in Narratives"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.3.9 Practice: Complete Your Assignment"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 40,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.4.3 Test (CST): Persuasive Texts"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 45,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "2.4.4 Test (TST): Persuasive Texts"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.1.4 Quiz: Understand Rhetoric in Speeches"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.1.6 Quiz: Speeches by Two Presidents"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.1.8 Quiz: Analyze Evidence&#44; Reasoning&#44; and Point of View in Speeches"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.1.10 Practice: Complete Your Assignment"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.2.3 Quiz: Understand the Role of the Speaker"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.2.5 Quiz: FDR's Four Freedoms Speech"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.2.7 Quiz: Analyze Themes and Their Uses"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 40,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.2.9 Project: Complete Your Assignment"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.3.2 Quiz: Understand Professionalism in Speeches"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.3.4 Quiz: Speeches by Al Gore and Dan Pink"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.3.7 Quiz: Analyze Adapting to Audience and Context"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.3.9 Project: Complete Your Assignment"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 40,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.4.3 Test (CST): The Speech"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 45,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "3.4.4 Test (TST): The Speech"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.1.4 Quiz: Understand Types of Claims"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.1.6 Quiz: &#34;Compulsory Voting: An Idea Whose Time Has Come&#34;"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.1.8 Quiz: Analyze Formulating an Argument"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.1.10 Practice: Complete Your Assignment"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.2.2 Quiz: Understand Anticipating Counterclaims"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.2.4 Quiz: &#34;A Defense of Veganism&#34;"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.2.5 Discuss: Think It Through&#44; Talk It Out"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.2.7 Quiz: Analyze Writing with Civility"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 40,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.2.9 Practice: Complete Your Assignment"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.3.3 Quiz: Understand How to Provide Peer Review"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 10,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.3.6 Quiz: Analyze Revision Strategies"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.3.8 Quiz: Prepare an Argumentative Research Paper, Part III"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.3.9 Practice: Complete Your Assignment"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 40,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.4.3 Test (CST): Researched Argumentation"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 45,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "4.4.4 Test (TST): Researched Argumentation"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 50,
+          "classTitle": "English 10B",
+          "percentage": 0,
+          "activityName": "5.1.3 Final Exam: Wrap Up"
+        }
+      ],
+      "last_updated": "2026-02-01T16:04:24.359+00:00"
+    },
+    {
+      "id": "e77f3de6-f314-41fe-91de-5d8272af2c0e",
+      "student_id": "s-1769874839494-0xqlh",
+      "class_id": "482334a7-c1b2-4b99-9001-cd82cc28b756",
+      "total_assignments": 35,
+      "completed_count": 20,
+      "assignment_data": [
+        {
+          "date": "2026-01-06",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 90,
+          "activityName": "1.1.2 Quiz: Building Good Spending Habits"
+        },
+        {
+          "date": "2026-01-07",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 100,
+          "activityName": "1.1.4 Quiz: Living Expenses"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "1.1.5 Journal: Your Financial Goals and Spending Habits"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 100,
+          "activityName": "1.2.2 Quiz: Earning and Income"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 100,
+          "activityName": "1.2.4 Quiz: Paying Taxes"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 40,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "1.2.5 Practice: Completing Tax Forms"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 100,
+          "activityName": "1.3.2 Quiz: Banking and Financial Statements"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 16,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 80,
+          "activityName": "1.3.4 Quiz: Digital Assets and Online Payment Methods"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "1.3.5 Discuss: The Future of Cryptocurrency"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 60,
+          "status": "Complete",
+          "possible": 60,
+          "classTitle": "Financial Literacy",
+          "percentage": 100,
+          "activityName": "1.4.2 Test (CST): Earning and Spending"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 100,
+          "activityName": "2.1.2 Quiz: The Importance of Saving"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 90,
+          "activityName": "2.1.4 Quiz: Effects on Savings: Interest and Inflation"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "2.1.5 Journal: Make a Savings Goal"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 90,
+          "activityName": "2.2.2 Quiz: Building Wealth"
+        },
+        {
+          "date": "2026-01-13",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 90,
+          "activityName": "2.2.4 Quiz: Types of Investments"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 40,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "2.2.5 Practice: Comparing Investments"
+        },
+        {
+          "date": "2026-01-14",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 100,
+          "activityName": "2.3.2 Quiz: Saving for Retirement"
+        },
+        {
+          "date": "2026-01-14",
+          "score": 57,
+          "status": "Complete",
+          "possible": 60,
+          "classTitle": "Financial Literacy",
+          "percentage": 95,
+          "activityName": "2.4.2 Test (CST): Savings and Investing"
+        },
+        {
+          "date": "2026-01-14",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 100,
+          "activityName": "3.1.2 Quiz: Types of Credit"
+        },
+        {
+          "date": "2026-01-14",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 100,
+          "activityName": "3.1.4 Quiz: Using Credit Wisely"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 40,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "3.1.5 Practice: Making a Smart Automobile Purchase"
+        },
+        {
+          "date": "2026-01-14",
+          "score": 18,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 90,
+          "activityName": "3.2.2 Quiz: Managing Your Debt"
+        },
+        {
+          "date": "2026-01-14",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 100,
+          "activityName": "3.3.2 Quiz: Monitoring Your Credit"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "3.3.3 Discuss: Maintaining Good Credit"
+        },
+        {
+          "date": "2026-01-14",
+          "score": 57,
+          "status": "Complete",
+          "possible": 60,
+          "classTitle": "Financial Literacy",
+          "percentage": 95,
+          "activityName": "3.4.2 Test (CST): Credit and Debt"
+        },
+        {
+          "date": "2026-01-16",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 100,
+          "activityName": "4.1.2 Quiz: Types of Insurance"
+        },
+        {
+          "date": "2026-01-16",
+          "score": 20,
+          "status": "Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 100,
+          "activityName": "4.1.4 Quiz: Costs and Benefits of Insurance"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 30,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "4.1.5 Explore: Buying Insurance"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "4.2.2 Quiz: Consumer Protections"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "4.2.4 Quiz: Fraud and Identity Theft"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "4.2.5 Journal: Protecting Yourself"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 20,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "4.3.2 Quiz: Estate Planning"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 40,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "4.3.3 Practice: Protecting Your Future"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 60,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "4.4.2 Test (CST): Protection of Assets"
+        },
+        {
+          "date": null,
+          "score": null,
+          "status": "Not Complete",
+          "possible": 100,
+          "classTitle": "Financial Literacy",
+          "percentage": 0,
+          "activityName": "6.1.3 Exam: Final Exam"
+        }
+      ],
+      "last_updated": "2026-02-01T16:04:30.334+00:00"
+    }
+  ]
+}

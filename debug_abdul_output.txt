@@ -1,0 +1,39 @@
+Deep Debug Abdulnasir Report
+============================
+Student: s-1769874839494-v5ueh (Abdulnasir Ali)
+
+--- Class: English  9A (english) ---
+Total Assignments: 53
+Subject Tags: {"UNDEFINED":53}
+ClassTitle Tags: {"English  9A":53}
+Sample Item: {"date":"2025-08-25","score":18,"status":"Complete","possible":20,"classTitle":"English  9A","percentage":90,"activityName":"1.1.3 Quiz: Understand the Shape of a Story"}
+
+--- Class: Algebra 1A (math) ---
+Total Assignments: 45
+Subject Tags: {"UNDEFINED":45}
+ClassTitle Tags: {"Algebra 1A":45}
+Sample Item: {"date":"2025-08-25","score":18,"status":"Complete","possible":20,"classTitle":"Algebra 1A","percentage":90,"activityName":"1.1.3 Quiz: Rational and Irrational Numbers"}
+
+--- Class: U.S. History since the Civil War A (socialStudies) ---
+Total Assignments: 52
+Subject Tags: {"UNDEFINED":52}
+ClassTitle Tags: {"U.S. History since the Civil War A":52}
+Sample Item: {"date":"2025-08-28","score":16,"status":"Complete","possible":20,"classTitle":"U.S. History since the Civil War A","percentage":80,"activityName":"1.1.5 Quiz: Radical Reconstruction"}
+
+--- Class: Physical Education* (electives) ---
+Total Assignments: 51
+Subject Tags: {"electives":51}
+ClassTitle Tags: {"Physical Education*":51}
+Sample Item: {"date":null,"score":null,"status":"Not Complete","subject":"electives","possible":30,"classTitle":"Physical Education*","percentage":0,"activityName":"1.1.2 Practice: Commitment Statement"}
+
+--- Class: Physical Science B (science) ---
+Total Assignments: 27
+Subject Tags: {"UNDEFINED":27}
+ClassTitle Tags: {"Physical Science B":27}
+Sample Item: {"date":"2026-01-12","score":20,"status":"Complete","possible":20,"classTitle":"Physical Science B","percentage":100,"activityName":"1.1.2 Quiz: Wave Properties"}
+
+--- Class: Physical Science A (science) ---
+Total Assignments: 22
+Subject Tags: {"UNDEFINED":22}
+ClassTitle Tags: {"Physical Science A":22}
+Sample Item: {"date":"2025-08-27","score":16,"status":"Complete","possible":20,"classTitle":"Physical Science A","percentage":80,"activityName":"1.1.2 Quiz: What is Science?"}

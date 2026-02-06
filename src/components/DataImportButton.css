@@ -1,0 +1,179 @@
+/* DataImportButton.css */
+.data-import-container {
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+    /* Ensure it floats above other content */
+}
+
+/* Main Button Styling (Matches existing potentially) */
+/* Main Button Styling - Restored Premium "Ghost" Look */
+.import-header-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #94a3b8;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    padding: 0.35rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+.import-header-btn:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.import-header-btn:disabled {
+    opacity: 0.5;
+    cursor: wait;
+}
+
+/* Dropdown Menu - Level 1 */
+.import-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 180px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+    padding: 4px 0;
+    display: none;
+}
+
+/* Pseudo-element to bridge the hover gap */
+.import-dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    /* Height of the margin-top */
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: transparent;
+}
+
+/* Show menu on hover of container */
+.data-import-container:hover .import-dropdown-menu {
+    display: block;
+}
+
+/* Menu Item */
+.import-menu-item {
+    padding: 8px 16px;
+    color: #e2e8f0;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    /* For arrow */
+    align-items: center;
+    position: relative;
+    /* For submenu positioning */
+    transition: background-color 0.15s;
+}
+
+.import-menu-item:hover {
+    background-color: #334155;
+    color: white;
+}
+
+/* Submenu Arrow */
+.arrow-right {
+    font-size: 0.7rem;
+    color: #94a3b8;
+}
+
+/* Dropdown Submenu - Level 2 */
+.import-submenu {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 160px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+    padding: 4px 0;
+    display: none;
+    margin-right: 4px;
+    /* Gap handled by bridge */
+}
+
+/* Bridge for submenu gap */
+.import-submenu::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    /* Position on the right edge of submenu */
+    width: 6px;
+    /* Slightly wider than margin-right to ensure overlap */
+    height: 100%;
+    background: transparent;
+}
+
+/* Show submenu on hover of parent item */
+.import-menu-item:hover .import-submenu {
+    display: block;
+}
+
+/* Submenu Items */
+.import-submenu-item {
+    padding: 8px 16px;
+    color: #cbd5e1;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    text-align: left;
+}
+
+.import-submenu-item:hover {
+    background-color: #334155;
+    color: #ffffff;
+    padding-left: 20px;
+    /* Slide effect */
+}
+
+/* Specific Subject Colors for Hover cues (Neon/Bright Palette) */
+.item-science:hover {
+    border-left: 3px solid #2ECC71;
+    /* Emerald Green */
+    color: #2ECC71;
+    /* Optional: Text Color Match */
+}
+
+.item-math:hover {
+    border-left: 3px solid #3498DB;
+    /* Electric Blue */
+    color: #3498DB;
+}
+
+.item-english:hover {
+    border-left: 3px solid #E74C3C;
+    /* Bright Vermilion */
+    color: #E74C3C;
+}
+
+.item-social:hover {
+    border-left: 3px solid #F1C40F;
+    /* Sunbright Yellow */
+    color: #F1C40F;
+}
+
+.item-electives:hover {
+    border-left: 3px solid #9B59B6;
+    /* Amethyst Purple */
+    color: #9B59B6;
+}

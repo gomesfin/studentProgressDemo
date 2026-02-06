@@ -1,0 +1,39 @@
+Debug Mahmoud Output
+================
+Student: s-1769874839494-0xqlh (Mahmoud Mahmoud)
+
+--- Class: U.S. History since the Civil War B (socialStudies) ---
+DB Count: 59
+JSON Length: 59
+ClassTitle Tags: {"U.S. History since the Civil War B":59}
+Subject Tags: {"MISSING_SUB":59}
+
+--- Class: Financial Literacy (electives) ---
+DB Count: 35
+JSON Length: 35
+ClassTitle Tags: {"Financial Literacy":35}
+Subject Tags: {"MISSING_SUB":35}
+
+--- Class: Physical Science B (science) ---
+DB Count: 27
+JSON Length: 27
+ClassTitle Tags: {"Physical Science B":27}
+Subject Tags: {"MISSING_SUB":27}
+
+--- Class: English 10B (english) ---
+DB Count: 58
+JSON Length: 58
+ClassTitle Tags: {"English 10B":58}
+Subject Tags: {"MISSING_SUB":58}
+
+--- Class: Algebra 1B (math) ---
+DB Count: 39
+JSON Length: 39
+ClassTitle Tags: {"Algebra 1B":39}
+Subject Tags: {"MISSING_SUB":39}
+
+--- Class: Physical Science A (science) ---
+DB Count: 22
+JSON Length: 22
+ClassTitle Tags: {"Physical Science A":22}
+Subject Tags: {"MISSING_SUB":22}

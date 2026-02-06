@@ -1,0 +1,35 @@
+Analyzing Inflation for Muntase Jama in Physical Science A...
+Student has 48 assignments.
+Master Curriculum has 22 assignments.
+
+--- INFLATED ITEMS (26) ---
+(These exist in the Imported File but NOT in your Master List)
+[+] 1.1.2 Quiz: Wave Properties
+[+] 1.1.4 Quiz: Wave Interactions
+[+] 1.2.2 Quiz: Electromagnetic Radiation
+[+] 1.2.5 Quiz: Wave-Particle Duality
+[+] 1.2.6 Practice: Wave-Particle Duality
+[+] 1.3.2 Quiz: Introduction to Wave Technology
+[+] 1.3.4 Quiz: Digital Technology
+[+] 1.3.5 Practice: Applications of Waves
+[+] 1.4.2 Test (CST): Waves
+[+] 2.1.2 Quiz: Types of Matter
+[+] 2.1.4 Quiz: The Periodic Table
+[+] 2.1.6 Quiz: Chemical Bonds
+[+] 2.2.2 Quiz: Properties of Matter
+[+] 2.2.3 Explore: Properties of Matter
+[+] 2.2.5 Quiz: Properties of Matter
+[+] 2.3.2 Test (CST): Structure and Properties of Matter
+[+] 3.1.2 Quiz: Chemical Equations
+[+] 3.1.4 Quiz: Types of Chemical Reactions
+[+] 3.1.5 Practice: Describing Chemical Reactions
+[+] 3.2.2 Quiz: Energy of Chemical Reactions
+[+] 3.2.5 Quiz: Reaction Rates
+[+] 3.2.7 Quiz: Dynamic Equilibrium
+[+] 3.3.2 Test (CST): Chemical Reactions
+[+] 4.1.2 Quiz: Fission and Fusion
+[+] 4.1.4 Quiz: Radioactive Decay
+[+] 4.3.2 Test (CST): Nuclear Reactions
+
+--- MISSING ITEMS (0) ---
+(These exist in Master List but were NOT in the Imported File)

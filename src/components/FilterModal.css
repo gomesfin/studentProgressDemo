@@ -1,0 +1,399 @@
+/* FilterModal.css - Premium Dark Theme (Matching CalendarModal) */
+
+.modal-content.filter-modal {
+    background: #1e293b;
+    /* Slate-900 */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 950px;
+    height: 80vh;
+    /* Fixed height for reliable layout */
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    animation: modalFadeIn 0.2s ease-out;
+    color: #e2e8f0;
+
+    /* Absolute Centering */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+/* Header */
+.filter-header {
+    background: #0f172a;
+    /* Slate-950 */
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    flex-shrink: 0;
+}
+
+.filter-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, #fff, #a5b4fc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+/* Scoped to Filter Modal */
+.filter-modal .homeroom-label {
+    font-size: 0.95rem;
+    font-weight: 700;
+    opacity: 1;
+    margin-left: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    vertical-align: middle;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Close Button (Text Style) */
+.filter-modal .close-btn-text {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    line-height: normal;
+    width: auto;
+    height: auto;
+}
+
+.filter-modal .close-btn-text:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+/* Body Layout */
+.filter-body {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    gap: 2rem;
+    padding: 1.5rem 2rem;
+    background: #1e293b;
+}
+
+/* Left Column: Controls */
+.filter-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 320px;
+    flex-shrink: 0;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}
+
+.filter-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.filter-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.filter-group label,
+.filter-section label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #94a3b8;
+    font-weight: 600;
+}
+
+/* Controls Styling */
+.date-input,
+.filter-select,
+.filter-range {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    padding: 0.4rem 0.6rem;
+    color: #f1f5f9;
+    font-family: inherit;
+    font-size: 0.9rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+.date-input:focus,
+.filter-select:focus {
+    outline: none;
+    border-color: #6366f1;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.filter-select option {
+    background: #1e293b;
+    color: #e2e8f0;
+}
+
+/* Date Row */
+.date-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Grade Checkboxes */
+.grade-checkboxes.compact {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: #cbd5e1;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    transition: background 0.2s;
+    border: 1px solid transparent;
+}
+
+.checkbox-label:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.checkbox-label input {
+    accent-color: #6366f1;
+}
+
+/* Right Column: Live Preview */
+.filter-preview {
+    flex: 1;
+    background: #0f172a;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 0;
+}
+
+.preview-header {
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preview-title span {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #a5b4fc;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.sort-select-compact {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 0.2rem 0.5rem;
+    color: #cbd5e1;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.sort-select-compact:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+.sort-select-compact option {
+    background: #0f172a;
+}
+
+.copy-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #94a3b8;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.copy-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-color: #fff;
+}
+
+.copy-btn.copied {
+    background: #10b981;
+    border-color: #10b981;
+    color: white;
+}
+
+/* LIST CONTAINER - FIXED SCROLL */
+.preview-list {
+    flex: 1 1 0;
+    /* Grow, Shrink, 0 basis */
+    overflow-y: auto;
+    padding: 0.5rem;
+    min-height: 0;
+    display: block;
+    /* Standard block layout for robust scrolling */
+}
+
+/* Custom Scrollbar for Filter Lists */
+.preview-list::-webkit-scrollbar,
+.filter-controls::-webkit-scrollbar,
+.preview-details::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.preview-list::-webkit-scrollbar-track,
+.filter-controls::-webkit-scrollbar-track,
+.preview-details::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.5);
+    border-radius: 4px;
+}
+
+.preview-list::-webkit-scrollbar-thumb,
+.filter-controls::-webkit-scrollbar-thumb,
+.preview-details::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 4px;
+    border: 2px solid rgba(15, 23, 42, 0.5);
+}
+
+.preview-list::-webkit-scrollbar-thumb:hover,
+.filter-controls::-webkit-scrollbar-thumb:hover,
+.preview-details::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+.preview-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: background 0.15s;
+    border-radius: 6px;
+    margin-bottom: 2px;
+}
+
+.preview-item:last-child {
+    border-bottom: none;
+}
+
+.preview-item:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.preview-name {
+    font-weight: 600;
+    color: #f1f5f9;
+    font-size: 0.95rem;
+}
+
+.preview-meta {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0;
+    /* Reduced to 0 as requested */
+}
+
+.meta-highlight {
+    color: #818cf8;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+/* Detailed View Styles */
+.preview-item.active {
+    background: rgba(255, 255, 255, 0.08);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+}
+
+.preview-main-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.preview-details {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    animation: fadeIn 0.2s ease-out;
+    /* Nested Scroll for Table */
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    text-align: left;
+}
+
+.details-table th {
+    color: #94a3b8;
+    font-weight: 600;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.details-table td {
+    padding: 0.25rem 0;
+    color: #e2e8f0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.details-table tr:last-child td {
+    border-bottom: none;
+}

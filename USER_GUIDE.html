@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northwoods Focus Student Dashboard - User Guide</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif; /* Doc-like font */
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: #1a1a1a;
+            background-color: #ffffff;
+        }
+        h1 { font-size: 24pt; border-bottom: 2px solid #333; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
+        h2 { font-size: 18pt; margin-top: 2rem; color: #2c5282; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        h3 { font-size: 14pt; margin-top: 1.5rem; color: #444; }
+        p, li { font-size: 12pt; }
+        ul { margin-bottom: 1rem; }
+        li { margin-bottom: 0.5rem; }
+        code { background-color: #f5f5f5; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', Courier, monospace; }
+        .header { text-align: center; margin-bottom: 3rem; }
+        .footer { margin-top: 4rem; text-align: center; font-size: 10pt; color: #666; border-top: 1px solid #ccc; padding-top: 1rem; }
+        @media print {
+            body { padding: 0; margin: 1cm; }
+            a { text-decoration: none; color: black; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Northwoods Focus Student Dashboard</h1>
+        <p><strong>User Guide</strong></p>
+    </div>
+
+    <p>Welcome to your new Student Dashboard! This tool is designed to help you verify student rosters, track academic progress in real-time, and identify students who may need extra support—all from a single, visual interface.</p>
+
+    <p>This guide will walk you through everything from setting up your classes to analyzing individual student performance.</p>
+
+    <hr>
+
+    <h2>1. Getting Started: Importing Data</h2>
+    <p>The dashboard relies on data you import. There are two types of imports: <strong>Rosters</strong> (Who is in the class) and <strong>Class Data</strong> (How they are doing).</p>
+
+    <h3>Step A: The Roster Import</h3>
+    <p>Before you can track progress, the system needs to know who belongs in your classroom.</p>
+    <ol>
+        <li>Click the <strong>Import</strong> button in the top header.</li>
+        <li>Select <strong>"Import Roster"</strong>.</li>
+        <li>Choose your roster file (Excel/CSV).</li>
+        <li><strong>What happens next?</strong>
+            <ul>
+                <li>The system checks your file against the current dashboard.</li>
+                <li><strong>Strict Mode</strong>: If a student is in your file, they are added. If a student is <em>not</em> in your file, they are removed from the dashboard. This ensures your dashboard exactly matches your official list.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>Step B: Importing Student Progress</h3>
+    <p>Once your students are seated, you can import their work.</p>
+    <ol>
+        <li>Click the <strong>Import</strong> button.</li>
+        <li>Select <strong>"Import Class Data"</strong>.</li>
+        <li>You can select one file or a whole batch of files (e.g., all 85 files for Science).</li>
+        <li><strong>The Import Summary</strong>:
+            <ul>
+                <li>After processing, a summary window will appear.</li>
+                <li><strong>Successes</strong>: Shows how many students were updated.</li>
+                <li><strong>Issues</strong>: If a student's name in the file essentially matches someone on your roster (e.g., "Jon Smith" vs "Jonathan Smith"), the system might ask you to confirm.</li>
+                <li><strong>Results</strong>: Your students' cards will update instantly with their latest grades.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <hr>
+
+    <h2>2. Managing Your Classroom Layout</h2>
+    <p>You can arrange the student cards to match your physical classroom seating.</p>
+    <ul>
+        <li><strong>Move a Student</strong>: Simply click and drag any student card to a new spot.</li>
+        <li><strong>Move Between Subjects</strong>: Drag a student from the "Science" quadrant to "Math" to transfer them relative to your dashboard view.</li>
+        <li><strong>Save Your Seating Chart</strong>:
+            <ol>
+                <li>Hover over the label of any room (e.g., "SCIENCE HR").</li>
+                <li>A small menu will appear. Click <strong>"Save Layout"</strong>.</li>
+                <li>If you ever mess up the cards, just click <strong>"Restore Layout"</strong> to snap them back to your saved arrangement.</li>
+            </ol>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h2>3. Monitoring Class Progress</h2>
+
+    <h3>Using the Class History View</h3>
+    <p>To see a high-level overview of everyone's work:</p>
+    <ol>
+        <li>Click the <strong>"Class History"</strong> button in the top header.</li>
+        <li>This opens a detailed list view.</li>
+        <li><strong>By Student</strong>: See a list of students and scan for missing assignments or low grades.</li>
+        <li><strong>By Class</strong>: Group everyone by subject to see if a specific class is struggling overall.</li>
+        <li><strong>Filter Issues</strong>: Toggle the <strong>"Show Issues Only"</strong> button to hide students who are on track, letting you focus solely on those who need help.</li>
+    </ol>
+
+    <h3>Filtering the Dashboard (Student List & Filters)</h3>
+    <p>You can refine the main dashboard to find specific groups of students.</p>
+    <ol>
+        <li>Click the <strong>Filter Icon</strong> (funnel) in any room header.</li>
+        <li><strong>Sort</strong>: Arrange students by Name, Grade, or Progress.</li>
+        <li><strong>Filter</strong>:
+            <ul>
+                <li><strong>Time Window</strong>: Pick a Start and End date to see only work done this week/month.</li>
+                <li><strong>Alerts</strong>: Show only students with "Low Progress" or "Missing Assignments".</li>
+            </ul>
+        </li>
+        <li><strong>Live Preview</strong>: As you change settings, the list on the right updates instantly to show you exactly who matches your criteria.</li>
+    </ol>
+
+    <hr>
+
+    <h2>4. Deep Dive: Student Progress Detail</h2>
+    <p>Click on any Student Card to open their <strong>Progress Detail View</strong>. This is your command center for an individual student.</p>
+
+    <h3>The Header</h3>
+    <ul>
+        <li><strong>Student Selector</strong>: Quickly switch to another student using the dropdown on the left.</li>
+        <li><strong>Class Selector</strong>: The colored dropdown shows the current class. If a student is taking two science classes (e.g., Biology AND Physics), use this dropdown to switch between them.</li>
+        <li><strong>Export</strong>: Click "Export" to save an image of this report to share with parents or admin.</li>
+    </ul>
+
+    <h3>The Semester Calendar</h3>
+    <ul>
+        <li>This shows a 4-month view of activity.</li>
+        <li><strong>Color Intensity</strong>: Days with more activity appear darker.</li>
+        <li><strong>Interactive</strong>: Click any day to see a pop-up list of exactly what assignments were submitted on that date.</li>
+    </ul>
+
+    <h3>The Performance Graph</h3>
+    <ul>
+        <li><strong>Left Axis (Bars)</strong>: The number of activities completed each week.</li>
+        <li><strong>Right Axis (Lines)</strong>:
+            <ul>
+                <li><strong>Solid Green Line</strong>: The student's Completion % (How close they are to finishing the course).</li>
+                <li><strong>Dashed White Line</strong>: The student's Average Grade.</li>
+            </ul>
+        </li>
+        <li><strong>Hover</strong>: Hover over any dot to see the exact numbers for that week.</li>
+    </ul>
+
+    <p><em>With these tools, you can move from a "Big Picture" view of your entire roster down to the specific assignment details of a single student in seconds.</em></p>
+
+    <div class="footer">
+        Generated for Northwoods Focus Student Dashboard
+    </div>
+
+</body>
+</html>
