@@ -53,7 +53,7 @@ function App() {
 
   // Initial Load
   React.useEffect(() => {
-    if (!session) return; // Only load if session exists
+    // if (!session) return; // DISABLED FOR DEMO
     const loadData = async () => {
       // Ensure DB Structure (Self-healing Schema)
       await ensureSubjectsExist();
@@ -1247,12 +1247,10 @@ function App() {
     }
   };
 
-  if (!session) return <Login />;
-
   return (
     <div className="dashboard-container">
       <div className="header">
-        <h1>Northwoods Focus Student Dashboard</h1>
+        <h1>Hawkins High School Student Dashboard</h1>
 
         <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
           <button
@@ -1268,11 +1266,11 @@ function App() {
           />
 
 
-        </div>
-      </div>
+        </div >
+      </div >
 
       {/* Science HR (TL) */}
-      <div className="homeroom-quadrant science" ref={scienceRef} style={getQuadrantStyle('science')}>
+      < div className="homeroom-quadrant science" ref={scienceRef} style={getQuadrantStyle('science')} >
         <div className="quadrant-header">
           Science HR <span style={{ opacity: 0.6, fontSize: '0.7em' }}>#{classroomData.science.length}</span>
           <SeatingControls
@@ -1293,10 +1291,10 @@ function App() {
           resetKey={resetKeys.science + (isFiltered('science') ? 100 : 0)}
           onContextMenu={(e, s) => handleCardContextMenu(e, s, 'science')}
         />
-      </div>
+      </div >
 
       {/* Math HR (TR) */}
-      <div className="homeroom-quadrant math" ref={mathRef} style={getQuadrantStyle('math')}>
+      < div className="homeroom-quadrant math" ref={mathRef} style={getQuadrantStyle('math')} >
         <div className="quadrant-header">
           Math HR <span style={{ opacity: 0.6, fontSize: '0.7em' }}>#{classroomData.math.length}</span>
           <SeatingControls
@@ -1317,10 +1315,10 @@ function App() {
           resetKey={resetKeys.math + (isFiltered('math') ? 100 : 0)}
           onContextMenu={(e, s) => handleCardContextMenu(e, s, 'math')}
         />
-      </div>
+      </div >
 
       {/* ELA HR (BL) */}
-      <div className="homeroom-quadrant ela" ref={elaRef} style={getQuadrantStyle('ela')}>
+      < div className="homeroom-quadrant ela" ref={elaRef} style={getQuadrantStyle('ela')} >
         <div className="quadrant-header">
           ELA HR <span style={{ opacity: 0.6, fontSize: '0.7em' }}>#{classroomData.ela.length}</span>
           <SeatingControls
@@ -1341,10 +1339,10 @@ function App() {
           resetKey={resetKeys.ela + (isFiltered('ela') ? 100 : 0)}
           onContextMenu={(e, s) => handleCardContextMenu(e, s, 'ela')}
         />
-      </div>
+      </div >
 
       {/* Social Studies HR (BR) */}
-      <div className="homeroom-quadrant social" ref={socialRef} style={getQuadrantStyle('socialStudies')}>
+      < div className="homeroom-quadrant social" ref={socialRef} style={getQuadrantStyle('socialStudies')} >
         <div className="quadrant-header">
           Social S. HR <span style={{ opacity: 0.6, fontSize: '0.7em' }}>#{classroomData.socialStudies.length}</span>
           <SeatingControls
@@ -1365,7 +1363,7 @@ function App() {
           resetKey={resetKeys.socialStudies + (isFiltered('socialStudies') ? 100 : 0)}
           onContextMenu={(e, s) => handleCardContextMenu(e, s, 'socialStudies')}
         />
-      </div>
+      </div >
 
 
 
@@ -1417,7 +1415,8 @@ function App() {
               />
             )
           );
-        })()}
+        })()
+      }
 
       {
         activeFilterModal && (

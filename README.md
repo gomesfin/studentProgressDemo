@@ -1,16 +1,73 @@
-# React + Vite
+# Hawkings High Student Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+The **Hawkings High Student Dashboard** is a mission-critical web application designed to solve real-world problems in classroom management. It empowers educators with a unified interface to track student progress, monitor attendance, and intervene early for at-risk students.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was built to demonstrate proficiency in modern frontend development, state management, and data visualization.
 
-## React Compiler
+![Dashboard Preview](./public/preview.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technical Highlights
 
-## Expanding the ESLint configuration
+### Core Technologies
+- **Frontend Framework**: React 19 (leveraging the latest Hooks and performance features)
+- **Build Tool**: Vite (for lightning-fast HMR and optimized production builds)
+- **Language**: JavaScript (ES6+ features)
+- **State Management**: React Context API & Reducers (managing complex, cross-component state)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Key Features & Implementation Details
+
+#### 1. Interactive Seating Charts (Drag & Drop)
+- **Challenge**: Creating a flexible layout system that mimics a physical classroom.
+- **Solution**: implemented `react-draggable` to allow teachers to customize seating arrangements. Coordinates are persisted to ensure the layout remains consistent between sessions.
+
+#### 2. Advanced Data Visualization
+- **Challenge**: Displaying complex multi-dimensional data (assignments, grades, attendance) without overwhelming the user.
+- **Solution**: Built custom, lightweight SVG graphs instead of relying on heavy charting libraries. This allows for pixel-perfect control over the design and better performance.
+
+#### 3. Intelligent Data Import & Fuzzy Matching
+- **Challenge**: External data sources (CSVs) often have inconsistent naming conventions (e.g., "Jon Doe" vs "Jonathan Doe").
+- **Solution**: Implemented a Levenshtein distance algorithm to detect near-matches during import. The UI presents these "fuzzy matches" to the user for manual verification, preventing data duplication.
+
+#### 4. Real-Time Performance Optimized
+- **Challenge**: Rendering hundreds of student data points simultaneously.
+- **Solution**: Utilized extensive memoization (`useMemo`, `useCallback`) and virtualized lists where appropriate to ensure the application runs smoothly even on lower-end school hardware.
+
+## 📂 Project Structure
+
+```
+src/
+├── components/       # Reusable UI components (Modals, Cards, Graphs)
+├── data/            # Mock data generators and schema definitions
+├── hooks/           # Custom React hooks for logic reuse
+├── services/        # API integration and business logic
+└── utils/           # Helper functions (Math, Date formatting, etc.)
+```
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/student-dashboard.git
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Start the development server**:
+    ```bash
+    npm run dev
+    ```
+
+## 🔮 Future Improvements
+
+- **backend Integration**: Transitioning from Supabase/Mock data to a full Node.js/Express backend.
+- **TypeScript Migration**: Rewriting core logic in TypeScript for better type safety.
+- **Unit Testing**: Implementing Vitest and React Testing Library for robust test coverage.
+
+---
+
+*This project is part of my professional portfolio. Feel free to reach out if you have any questions!*
