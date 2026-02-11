@@ -1,19 +1,17 @@
 # Hawkings High Student Dashboard
 
-## 🚀 Overview
+## Overview
 
-The **Hawkings High Student Dashboard** is a mission-critical web application designed to solve real-world problems in classroom management. It empowers educators with a unified interface to track student progress, monitor attendance, and intervene early for at-risk students.
+The **Hawkings High Student Dashboard** is a web application designed to solve real-world problems in classroom management. It empowers educators with a unified interface to track student progress, monitor attendance, and intervene early for at-risk students.
 
 This project was built to demonstrate proficiency in modern frontend development, state management, and data visualization.
 
-![Dashboard Preview](./public/preview.png)
-
-## 🛠️ Technical Highlights
+## Technical Highlights
 
 ### Core Technologies
-- **Frontend Framework**: React 19 (leveraging the latest Hooks and performance features)
-- **Build Tool**: Vite (for lightning-fast HMR and optimized production builds)
-- **Language**: JavaScript (ES6+ features)
+- **Frontend Framework**: React 19 
+- **Build Tool**: Vite
+- **Language**: JavaScript 
 - **State Management**: React Context API & Reducers (managing complex, cross-component state)
 
 ### Key Features & Implementation Details
@@ -34,18 +32,7 @@ This project was built to demonstrate proficiency in modern frontend development
 - **Challenge**: Rendering hundreds of student data points simultaneously.
 - **Solution**: Utilized extensive memoization (`useMemo`, `useCallback`) and virtualized lists where appropriate to ensure the application runs smoothly even on lower-end school hardware.
 
-## 📂 Project Structure
-
-```
-src/
-├── components/       # Reusable UI components (Modals, Cards, Graphs)
-├── data/            # Mock data generators and schema definitions
-├── hooks/           # Custom React hooks for logic reuse
-├── services/        # API integration and business logic
-└── utils/           # Helper functions (Math, Date formatting, etc.)
-```
-
-## 🚀 Getting Started
+## Getting Started
 
 To run this project locally:
 
@@ -62,7 +49,7 @@ To run this project locally:
     npm run dev
     ```
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - **backend Integration**: Transitioning from Supabase/Mock data to a full Node.js/Express backend.
 - **TypeScript Migration**: Rewriting core logic in TypeScript for better type safety.
